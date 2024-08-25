@@ -119,7 +119,7 @@ export default function App() {
                     10
                   </div>
                   <div className='flex justify-end text-sm text-slate-500'>
-                    ~$1,791.27
+                    ~$1,611.27
                   </div>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function App() {
                     56,000,000
                   </div>
                   <div className='flex justify-end text-sm text-slate-500'>
-                    ~$1,721.35
+                    ~$1,601.35
                   </div>
                 </div>
               </div>
