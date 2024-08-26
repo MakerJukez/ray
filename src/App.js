@@ -4,7 +4,7 @@ export default function App() {
   const [showBanner, setShowBanner] = useState(true);
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#070B15] text-white">
+    <div className="flex flex-col min-h-screen bg-[#cedcff] text-white">
       {showBanner && (
         <div className="bg-[#1E243C] text-sky-200 p-2 flex justify-center items-center text-xs font-light">
           <span>gigasend straight to ray mfers. CA: updating...</span>
@@ -21,7 +21,7 @@ export default function App() {
             <img src="ra.png" alt="Raydium" className="size-[60px] rounded-full" />
           </a>
           <nav className="md:flex items-center gap-6 text-md hidden md:visible text-slate-500 pl-5">
-            <a href="/" className="text-sky-200">
+            <a href="/" className="text-blue-400">
               Swap
             </a>
             <a href="https://x.com/raydadog" className="">
@@ -39,10 +39,10 @@ export default function App() {
           </nav>
         </div>
         <div className="flex items-center gap-4">
-          <div className="text-sky-200 hidden md:block">
-            Priority: <span className="text-[#69CDDB]">Turbo</span>
+          <div className="text-blue-400 hidden md:block">
+            Priority: <span className="text-blue-300">Turbo</span>
           </div>
-          <div className="relative text-sky-200">
+          <div className="relative text-blue-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
